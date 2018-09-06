@@ -165,6 +165,78 @@ new_countries = [
   :island => false}
 ]
 puts new_countries
+puts "-----------"
 
 #exercise 7
 #1.
+puts "I will not skateboard in the halls" * 20
+puts "-----------"
+#2.
+warning = ["I will not skateboard in the halls"]*20
+puts warning
+puts "-----------"
+#3.
+numbers = []
+def create_array_1_to_50(numbers)
+  i = 1
+  while i <= 50
+    numbers.push(i)
+    i += 1
+  end
+  return numbers
+end
+puts create_array_1_to_50(numbers)
+puts "-----------"
+#4.
+total_numbers = 0
+numbers.each do |number|
+  total_numbers = total_numbers + number
+end
+puts total_numbers
+puts "-----------"
+#5.
+numbers2 =[]
+def three_number_to_50(numbers2)
+  i = 1
+  x = 1
+  while x <= 3
+    numbers2.push(i)
+    x += 1
+  end
+  x = 1
+  i += 1
+end
+puts three_number_to_50(numbers2)
+#6.
+new_array_countries_not_island = []
+new_countries.each do |country|
+  if country[:island] == false
+    new_array_countries_not_island.push(country)
+  end
+end
+puts  new_array_countries_not_island
+puts "-----------"
+puts  new_countries
+puts "-----------"
+
+#exercise 8
+expenses = [250, 7.95, 30.95, 16.50]
+total_expenses = 0
+expenses.each do |ammount|
+  total_expenses = total_expenses + ammount
+end
+puts total_expenses
+puts "-----------"
+
+expenses2 = [3, 2.50, 10, 50]
+
+def expenses_calculation(array)
+    total_expenses2 = 0
+    array.each do |ammount|
+    total_expenses2 = total_expenses2 + ammount
+  end
+  return total_expenses2
+end
+total_expenses2 = expenses_calculation(expenses2)
+puts  total_expenses2
+puts "-----------"
