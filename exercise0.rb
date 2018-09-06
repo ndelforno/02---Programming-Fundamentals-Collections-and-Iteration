@@ -34,7 +34,7 @@ siblings = {
 puts flip_a_coin
 puts "-----------"
 #2.
-puts fav_colours[1]
+puts fav_colours[0]
 puts "-----------"
 #3.
 age_sibling << 0
@@ -42,3 +42,25 @@ puts age_sibling
 puts "-----------"
 #4.
 puts fav_movies[:fight_club]
+puts "-----------"
+
+#exercise 2
+#1.
+puts fav_colours.last
+puts "-----------"
+#2.
+world_cities[:paris] = 9000000
+puts world_cities
+puts "-----------"
+#3.
+flip_a_coin = flip_a_coin.reverse
+puts flip_a_coin
+puts "-----------"
+#4.
+puts world_cities[:antibes]
+puts "-----------"
+#5.
+puts "I think #{fav_artists[0]} is great"
+puts "I think #{fav_artists[1]} is great"
+puts "I think #{fav_artists[2]} is great"
+puts "-----------"
