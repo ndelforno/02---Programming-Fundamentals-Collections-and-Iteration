@@ -240,3 +240,46 @@ end
 total_expenses2 = expenses_calculation(expenses2)
 puts  total_expenses2
 puts "-----------"
+
+#exercise 9
+grocery_list = ["carrots", "toilet paper", "apples", "salmon"]
+grocery_list.each do |item|
+  puts "* " + item
+end
+
+puts "-----------"
+
+grocery_list << "rice"
+
+def output_grocery_list (grocery_list)
+total_items = 0
+grocery_list.each do |item|
+  puts "* " + item
+  total_items +=1
+  end
+  if item = "bananas"
+    puts "You need to pick up bananas"
+  else
+    puts "You don't need to pick up bananas today"
+  end
+  return total_items
+  puts total_items
+end
+
+output_grocery_list(grocery_list)
+
+puts "-----------"
+grocery_list << "pasta"
+output_grocery_list(grocery_list)
+puts "-----------"
+puts total_items = output_grocery_list(grocery_list)
+puts "-----------"
+puts grocery_list[1]
+puts "-----------"
+grocery_list = grocery_list.sort
+output_grocery_list(grocery_list)
+puts total_items
+puts "-----------"
+grocery_list.delete("salmon")
+output_grocery_list(grocery_list)
+puts total_items
