@@ -1,3 +1,4 @@
+#exercise 0
 fav_colours = ["black", "white", "green"]
 age_sibling = ["63", "30", "89"]
 flip_a_coin = [true, false, false, true, false]
@@ -27,3 +28,17 @@ siblings = {
   :girlfriend => 30,
   :grandmother => 89
 }
+
+#exercise 1
+#1.
+puts flip_a_coin
+puts "-----------"
+#2.
+puts fav_colours[1]
+puts "-----------"
+#3.
+age_sibling << 0
+puts age_sibling
+puts "-----------"
+#4.
+puts fav_movies[:fight_club]
