@@ -25,7 +25,7 @@ puts "---------"
 
 #5.
 students.each do |cohort,student|
-  students[cohort]= student * 1.05
+  students[cohort]= (student * 1.05).to_i
 end
 puts students
 

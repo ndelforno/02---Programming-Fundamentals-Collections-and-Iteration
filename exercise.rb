@@ -195,18 +195,17 @@ end
 puts total_numbers
 puts "-----------"
 #5.
-numbers2 =[]
-def three_number_to_50(numbers2)
-  i = 1
-  x = 1
-  while x <= 3
-    numbers2.push(i)
-    x += 1
-  end
-  x = 1
-  i += 1
-end
-puts three_number_to_50(numbers2)
+# numbers2 =[]
+# def three_number_to_50(numbers2)
+#   i = 1
+#     while i <= 50
+#       (numbers2.push(i))*3
+#     end
+#   i += 1
+# end
+# puts three_number_to_50(numbers2)
+
+puts "-----------"
 #6.
 new_array_countries_not_island = []
 new_countries.each do |country|
