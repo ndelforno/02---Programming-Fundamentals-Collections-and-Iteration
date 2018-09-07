@@ -24,10 +24,10 @@ puts students.keys
 puts "---------"
 
 #5.
-# students.each do |cohort,students|
-#   students[:cohort1]= students * 1.05
-# end
-# puts students
+students.each do |cohort,student|
+  students[cohort]= student * 1.05
+end
+puts students
 
 #6.
 
