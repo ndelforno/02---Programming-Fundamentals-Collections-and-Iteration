@@ -282,3 +282,29 @@ puts "-----------"
 grocery_list.delete("salmon")
 output_grocery_list(grocery_list)
 puts total_items
+puts "-----------"
+
+#bonus
+#1
+array_colours_and_artists = []
+array_colours_and_artists = fav_colours + fav_artists
+puts array_colours_and_artists.sort
+puts "-----------"
+
+#2
+fav_artists.each do |num|
+  age_sibling.each do |num2|
+    puts "I <3 #{num} #{num2}"
+  end
+end
+puts "-----------"
+
+#3
+puts age_sibling = age_sibling.map {|x| x + 1}
+puts "-----------"
+
+#4
+puts "total ages of sibling = #{age_sibling.reduce(:+)}"
+
+#5
+puts heads_only = flip_a_coin.select {|num| num == true}
